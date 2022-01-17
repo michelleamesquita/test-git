@@ -1,0 +1,8 @@
+language: python
+python: 3.9
+
+script:
+  - python3 hello.py
+ 
+after_script:
+  - bash ./telegram_notification.sh
