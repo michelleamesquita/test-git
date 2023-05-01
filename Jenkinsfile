@@ -21,7 +21,4 @@ sh \'python3 hello.py\''''
     }
 
   }
-  environment {
-    build = 'build'
-  }
 }
