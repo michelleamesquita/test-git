@@ -3,14 +3,13 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh ' sh \'python3 -v\''
+        sh ' sh \'hello\''
       }
     }
 
     stage('test') {
       steps {
-        sh '''git branch \'main\', url \'https://github.com/michelleamesquita/test-git.git\'
-sh \'python3 hello.py\''''
+        sh ' git branch \'main\', url \'https://github.com/michelleamesquita/test-git.git\''
       }
     }
 
