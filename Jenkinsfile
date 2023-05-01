@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh ' sh \'hello\''
+        sh 'sh \'echo \\\'hi :D\\\'\''
       }
     }
 
